@@ -1,5 +1,5 @@
 #Ex01.: match case
-n = int(input("""-----Menu-----
+n = int(input("""\n-----Menu-----
                  
 [1] - Marketing\n[2] - Financeiro\n[3,4,5] - ADM\n[6,7,8,9] - T.I.\n[10] - Serviços Gerais
 
@@ -19,6 +19,7 @@ match n:
     case _:
         print('Código não encontrado')
 
-#Ex02.:
+#Ex02.: 
+
 
 
