@@ -19,7 +19,17 @@ match n:
     case _:
         print('Código não encontrado')
 
-#Ex02.: 
+#Ex02.: verificando faixa etária
+age = int(input('Informe sua idade: '))
 
-
-
+match age:
+    case i if 0 <= age < 12:
+        print('Criança')
+    case i if 12 <= age < 18:
+        print('Adolescente')
+    case i if 18 <= age < 65:
+        print('Adulto')
+    case i if age >= 65:
+        print('Idoso')
+    case _:
+        print('Idade inválida')
